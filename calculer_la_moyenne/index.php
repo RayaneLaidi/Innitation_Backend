@@ -103,7 +103,7 @@
 
         function afficherResultat($nom, $moyenne) {
             $classeCss = ($moyenne >= 10) ? 'suffisant' : 'insuffisant';
-            $message = ($moyenne >= 10) ? "Suffisante ✅" : "Insuffisante ❌";
+            $message = ($moyenne >= 10) ? "Suffisante " : "Insuffisante                                                                                                                                                                                 ";
 
             echo "<div class='resultat $classeCss'>";
             echo "<strong>$nom</strong><br>";
